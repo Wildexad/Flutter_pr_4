@@ -16,7 +16,7 @@ class ProgrammingLanguagesApp extends StatelessWidget {
       theme: ThemeData(
         brightness: Brightness.light,
         primaryColor: Colors.white,
-        scaffoldBackgroundColor: Colors.green[50], // Легкий зеленый фон для всего приложения
+        scaffoldBackgroundColor: Colors.green[50], 
         cardColor: Colors.grey[200],
         textTheme: TextTheme(
           bodyLarge: TextStyle(color: Colors.black),
@@ -149,7 +149,7 @@ class LanguageDetailPage extends StatelessWidget {
           language['name']!,
           style: TextStyle(color: Colors.black),
         ),
-        backgroundColor: Colors.green[50], // Легкий зеленый фон
+        backgroundColor: Colors.green[50], 
         elevation: 0,
       ),
       body: Padding(
@@ -212,7 +212,7 @@ class _EnrolledCoursesPageState extends State<EnrolledCoursesPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Мои курсы', style: TextStyle(color: Colors.black)),
-        backgroundColor: Colors.green[50], // Легкий зеленый фон
+        backgroundColor: Colors.green[50], 
         elevation: 0,
       ),
       body: ListView.builder(
